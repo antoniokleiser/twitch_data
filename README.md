@@ -1,2 +1,2 @@
 # twitch_data
-Connect with api to twitch to get streaming info.
+Connect with twitch api to get streaming info.
