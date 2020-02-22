@@ -27,7 +27,7 @@ for i in games:
     viewers = i['viewers']
     channels = i['channels']
     timestamp = datetime.datetime.now()
-    #append all the info
+    #append all the info into the empty list
     data_twitch.append([name, viewers, channels, timestamp])
 
 #create dataframe
