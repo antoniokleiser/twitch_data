@@ -30,6 +30,9 @@ for i in games:
     #append all the info into the empty list
     data_twitch.append([name, viewers, channels, timestamp])
 
+streamer = client.streams.get_live_streams()
+print(streamer)
+
 #create dataframe
 dataset = pd.DataFrame(data_twitch)
 #changen column names
